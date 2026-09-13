@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0B0D12"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="22dp">
+
+        <ImageButton
+            android:id="@+id/backButton"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:padding="8dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/back_ic"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Back"
+            app:tint="#FFFFFF"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ACHIEVEMENTS"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your quiz performance and rewards"
+            android:gravity="center"
+            android:textColor="#8B93A3"
+            android:textSize="14sp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="25dp"/>
+
+        <ImageView
+            android:id="@+id/diamondBadge"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center"
+            android:src="@drawable/dia"
+            android:scaleType="fitCenter"
+            android:contentDescription="Diamond Badge"/>
+
+        <TextView
+            android:id="@+id/diamondText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="💎 DIAMOND • QUIZ MASTER"
+            android:textColor="#74D5ED"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="25dp"/>
+
+        <ImageView
+            android:id="@+id/goldBadge"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:src="@drawable/gold"
+            android:scaleType="fitCenter"
+            android:contentDescription="Gold Badge"/>
+
+        <TextView
+            android:id="@+id/goldText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🥇 GOLD • EXCELLENT PERFORMER"
+            android:textColor="#E0B834"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="25dp"/>
+
+        <ImageView
+            android:id="@+id/silverBadge"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:src="@drawable/silver"
+            android:scaleType="fitCenter"
+            android:contentDescription="Silver Badge"/>
+
+        <TextView
+            android:id="@+id/silverText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🥈 SILVER • GOOD PERFORMER"
+            android:textColor="#C4C1B5"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="25dp"/>
+
+        <ImageView
+            android:id="@+id/bronzeBadge"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:src="@drawable/bronze"
+            android:scaleType="fitCenter"
+            android:contentDescription="Bronze Badge"/>
+
+        <TextView
+            android:id="@+id/bronzeText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🥉 BRONZE • KEEP LEARNING"
+            android:textColor="#8F7E49"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="25dp"/>
+
+        <ImageView
+            android:id="@+id/beginnerBadge"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:src="@drawable/beginner"
+            android:scaleType="fitCenter"
+            android:contentDescription="Beginner Badge"/>
+
+        <TextView
+            android:id="@+id/beginnerText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🏅 BEGINNER • TRY AGAIN"
+            android:textColor="#CF0858"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="30dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

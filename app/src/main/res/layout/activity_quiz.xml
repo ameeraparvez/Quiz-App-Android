@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0B0D12"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="22dp">
+
+        <TextView
+            android:id="@+id/categoryTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Java Quiz"
+            android:textColor="#FFFFFF"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:layout_marginTop="40dp"/>
+
+        <TextView
+            android:id="@+id/questionNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Question 1 of 10"
+            android:textColor="#8B93A3"
+            android:textSize="14sp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="25dp"/>
+
+        <ProgressBar
+            android:id="@+id/quizProgress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:max="10"
+            android:progress="1"
+            android:progressTint="#7C5CFC"
+            android:layout_marginBottom="25dp"/>
+
+        <TextView
+            android:id="@+id/timerText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15s"
+            android:textColor="#7C5CFC"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_gravity="end"
+            android:layout_marginBottom="15dp"/>
+
+        <TextView
+            android:id="@+id/questionText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What is Java?"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="25dp"/>
+
+        <RadioGroup
+            android:id="@+id/optionsGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/option1"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:text="Option 1"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:padding="12dp"
+                android:button="@null"
+                android:gravity="center_vertical"
+                android:background="@drawable/option_background"
+                android:layout_marginBottom="10dp"/>
+
+            <RadioButton
+                android:id="@+id/option2"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:text="Option 2"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:padding="12dp"
+                android:button="@null"
+                android:gravity="center_vertical"
+                android:background="@drawable/option_background"
+                android:layout_marginBottom="10dp"/>
+
+            <RadioButton
+                android:id="@+id/option3"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:text="Option 3"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:padding="12dp"
+                android:button="@null"
+                android:gravity="center_vertical"
+                android:background="@drawable/option_background"
+                android:layout_marginBottom="10dp"/>
+
+            <RadioButton
+                android:id="@+id/option4"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:text="Option 4"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:padding="12dp"
+                android:button="@null"
+                android:gravity="center_vertical"
+                android:background="@drawable/option_background"
+                android:layout_marginBottom="10dp"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/explanationText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/explanation_background"
+            android:textColor="#E8E6F0"
+            android:textSize="14sp"
+            android:lineSpacingExtra="4dp"
+            android:padding="18dp"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/nextButton"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Next Question"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:backgroundTint="#7C5CFC"
+            android:layout_marginTop="25dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

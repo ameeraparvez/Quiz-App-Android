@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="25dp"
+    android:background="#0B0D12">
+
+    <TextView
+        android:id="@+id/resultTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quiz Completed!"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/resultCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Java Quiz"
+        android:textColor="#8B93A3"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/scoreText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4 / 10"
+        android:textColor="#A78BFA"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/scoreMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Great job!"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/achievementText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🏆 QUIZ MASTER"
+        android:textColor="#A78BFA"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <ImageView
+        android:id="@+id/badgeImage"
+        android:layout_width="110dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="20dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/dia"
+        android:contentDescription="Achievement Badge"/>
+
+
+    <Button
+        android:id="@+id/restartButton"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Try Again"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:backgroundTint="#7C5CFC"
+        android:layout_marginTop="35dp"/>
+
+    <Button
+        android:id="@+id/homeButton"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Back to Categories"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:backgroundTint="#292E3A"
+        android:layout_marginTop="12dp"/>
+
+</LinearLayout>
